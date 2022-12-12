@@ -74,11 +74,11 @@ body {
 }
 
 .txt1 {
-  margin-top: 20px;
-  margin-left: 30%;
+  margin-top: 30px;
+  margin-left: 45%;
   font-size: 80px;
   color: #f7827a;
-  line-height: 18px;
+  line-height: 19px;
 }
 
 .control .line {
@@ -148,29 +148,30 @@ body {
 
 .text {
   margin-top: 90px;
-  margin-left: 60px;
+  margin-left: 20%;
   color: rgb(114, 101, 101);
 }
 
 .txt {
   margin-top: 35px;
-  margin-left: 15%;
+  margin-left: 25%;
   font-size: 80px;
   color: #f7827a;
 }
 
 .text2 {
-  margin-top: 70px;
-  margin-left: 60px;
+  margin-top: 30%;
+  margin-left:80px;
   color: rgb(160, 130, 130);
-  font-size: 18px;
+  font-size: 23px;
 }
 
 .span {
   margin-top: 100px;
   color: rgb(110, 95, 95);
   letter-spacing: 2px;
-  font-size: 14px;
+  font-size: 16px;
+  margin-left: 5%;
 }
 
 span:hover {
@@ -595,7 +596,9 @@ div[role="progressbar"]::before {
     /* width: 100%; */
     margin-left: -100px;
   }
-
+   body{
+    width: 100%;
+   }
 }
 
 
