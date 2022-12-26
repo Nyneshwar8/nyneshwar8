@@ -1,18 +1,20 @@
 body {
-
+  top: 0%;
+  bottom: 0%;
   margin: 0;
   padding: 0;
 }
 
 .section {
-  height: 1450vh;
+  /* height: 1450vh; */
   background-color: #362b2e;
 
 }
 
 .float-left {
   left: 0%;
-  height: 100vh;
+  bottom: 0%;
+  top: 0%;
   width: 21%;
   position: fixed;
   background-color: #3f3a3b;
@@ -21,7 +23,6 @@ body {
 
 .float-right {
   float: right;
-  height: 100vh;
   width: 80%;
   background-color: rgb(253, 253, 253);
 }
@@ -33,18 +34,16 @@ body {
   color: white;
   vertical-align: center;
   align-items: center;
-
-
-
 }
+
 .sidebarrr2 {
   padding-left: 50px;
   padding-top: 40%;
 
 }
+
 .bar1:hover {
   color: white;
-
 }
 
 .bar2:hover {
@@ -161,7 +160,7 @@ body {
 
 .text2 {
   margin-top: 30%;
-  margin-left:80px;
+  margin-left: 80px;
   color: rgb(160, 130, 130);
   font-size: 23px;
 }
@@ -169,9 +168,9 @@ body {
 .span {
   margin-top: 100px;
   color: rgb(110, 95, 95);
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   font-size: 16px;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 
 span:hover {
@@ -223,7 +222,8 @@ span:hover {
   transition: 0.4s;
   width: 0px;
 }
-.cross{
+
+.cross {
   border: none;
   background-color: #f78da7;
   margin-top: 30px;
@@ -256,6 +256,7 @@ span:hover {
   color: white;
   border: 1px solid #f7827a;
   background-color: #362b2e;
+  margin-top: 0px;
 }
 
 .font1 {
@@ -285,7 +286,7 @@ span:hover {
   color: white;
   border: 1px solid #f7827a;
   background-color: #362b2e;
-
+  margin-top: 190px;
 }
 
 .btnn:hover {
@@ -300,7 +301,7 @@ span:hover {
 .dropdown {
 
   margin: 7% 7% 0% 110vh;
-  
+
 }
 
 .ico {
@@ -332,7 +333,7 @@ span:hover {
 }
 
 .container:hover .overlay {
-  width: 98%;
+  width: 94%;
 }
 
 .text5 {
@@ -354,7 +355,7 @@ span:hover {
 
 .c-timeline__item {
   position: relative;
-   display: flex;
+  display: flex;
   gap: 1.9rem;
 }
 
@@ -455,7 +456,7 @@ body {
   }
 }
 
-@property  --pgPercentage {
+@property --pgPercentage {
   syntax: '<number>';
   inherits: false;
   initial-value: 0;
@@ -513,9 +514,9 @@ div[role="progressbar"]::before {
 }
 
 .boxxx {
-  height: 85%;
+  height: 90%;
   width: 90%;
-  margin-top: 140px;
+  margin-top: 10%;
   background-color: #f7827a;
 }
 
@@ -571,34 +572,111 @@ div[role="progressbar"]::before {
 
 
 
-@media screen and (max-width:600px) {
+@media (max-width:600px) {
   .float-left {
 
     display: none;
   }
+
   .right {
 
     display: none;
   }
+
   .section {
-    width: 630px;
+    /* width:100% !important; */
+    width: 100%;
+    margin: 0;
   }
 
-   .box{
-    display: block !important;
-    width: 100% !important;
-  }
-  .box1{
-    display: block !important;
-  } 
- 
-  .wrapper{
+
+  .wrapper {
     /* width: 100%; */
     margin-left: -100px;
   }
-   body{
+
+  body {
+    width: 100% !important;
+  }
+
+  .text {
+    font-size: 19px;
+  }
+
+  .txt1 {
+    font-size: 57px;
+    margin-right: 30px;
+  }
+
+  .txt {
+    font-size: 57px;
+    margin-right: 30px;
+
+  }
+
+  .text2 {
+    font-size: 20px;
+    margin-right: 20%;
+    /* margin-left: -3px; */
+
+  }
+
+  .clr {
+    margin-right: 120px;
+  }
+
+  .cover11 {
+    margin-left: -90%;
+  }
+
+  .float-right {
+    margin-right: 40px;
+    width: 340px;
+  }
+
+  .boxxx {
+    width: 120%;
+    margin-left: -31%;
+  }
+
+  .container {
     width: 100%;
-   }
+  }
+
+  .button {
+    width: 230px;
+    height: 50px;
+    margin-bottom: 30px;
+  }
+
+  .span {
+    letter-spacing: -2px;
+  }
+
+  .progress {
+    margin-left: -29%;
+    width: 80%;
+  }
+
+  .skillll {
+    margin-left: -30%;
+    margin-top: 10%;
+  }
+
+  .gg {
+    margin-left: -30%;
+  }
+
+  .pratu {
+    margin-left: -30%;
+  }
+
+  .pp {
+    margin-left: -10%;
+  }
+
+  .circlebar {
+    margin-left: -5%;
+  }
+
 }
-
-
